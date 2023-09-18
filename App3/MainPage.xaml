@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout BackgroundColor="#171717" >
+        <Entry x:Name="resultEntry" Text="0" HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand"
+               WidthRequest="350" HeightRequest="120"
+               TextColor="White" />
+        <Grid HeightRequest="300" Margin="5" >
+            <Button Text="1" Clicked="Zifra" Grid.Row="1" Grid.Column="0" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="2" Clicked="Zifra" Grid.Row="1" Grid.Column="1" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="3" Clicked="Zifra" Grid.Row="1" Grid.Column="2" CornerRadius="80" BackgroundColor="#fc7f03"/>
+
+            <Button Text="4" Clicked="Zifra" Grid.Row="2" Grid.Column="0" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="5" Clicked="Zifra" Grid.Row="2" Grid.Column="1" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="6" Clicked="Zifra" Grid.Row="2" Grid.Column="2" CornerRadius="80" BackgroundColor="#fc7f03"/>
+
+            <Button Text="7" Clicked="Zifra" Grid.Row="3" Grid.Column="0" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="8" Clicked="Zifra" Grid.Row="3" Grid.Column="1" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="9" Clicked="Zifra" Grid.Row="3" Grid.Column="2" CornerRadius="80" BackgroundColor="#fc7f03"/>
+            <Button Text="0" Clicked="Zifra" Grid.Row="4" Grid.ColumnSpan="2" CornerRadius="80" BackgroundColor="#fc7f03"/>
+
+            <Button Text="," Clicked="Zapitai" Grid.Row="4" Grid.Column="2" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="+" Clicked="Plus" Grid.Row="1" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="-" Clicked="Minus" Grid.Row="2" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="*" Clicked="Umnog" Grid.Row="3" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="/" Clicked="Delenie" Grid.Row="4" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff"/>
+
+            <Button Text="√" Clicked="Koren" Grid.Row="3" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="%" Clicked="Skidka" Grid.Row="4" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="=" Clicked="Ravno" Grid.Row="1" Grid.RowSpan="2" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff"/>
+
+            <Button Text="←" Clicked="Strelka" Grid.Row="0" Grid.Column="0" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="CE" Clicked="AE" Grid.Row="0" Grid.Column="1" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="C" Clicked="C" Grid.Row="0" Grid.Column="2" CornerRadius="20" BackgroundColor="#ffffff" />
+            <Button Text="±" Clicked="PluMn" Grid.Row="0" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff" />
+            <Button Text="1/x" Clicked="Obrat" Grid.Row="0" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff" />
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
