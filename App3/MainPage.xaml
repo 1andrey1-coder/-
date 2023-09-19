@@ -32,8 +32,8 @@
             <Button Text="%" Clicked="Skidka" Grid.Row="4" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff"/>
             <Button Text="=" Clicked="Ravno" Grid.Row="1" Grid.RowSpan="2" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff"/>
 
-            <Button Text="←" Clicked="Strelka" Grid.Row="0" Grid.Column="0" CornerRadius="20" BackgroundColor="#ffffff"/>
-            <Button Text="CE" Clicked="AE" Grid.Row="0" Grid.Column="1" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="❮" Clicked="Strelka" Grid.Row="0" Grid.Column="0" CornerRadius="20" BackgroundColor="#ffffff"/>
+            <Button Text="CE" Clicked="CE" Grid.Row="0" Grid.Column="1" CornerRadius="20" BackgroundColor="#ffffff" />
             <Button Text="C" Clicked="C" Grid.Row="0" Grid.Column="2" CornerRadius="20" BackgroundColor="#ffffff" />
             <Button Text="±" Clicked="PluMn" Grid.Row="0" Grid.Column="3" CornerRadius="20" BackgroundColor="#ffffff" />
             <Button Text="1/x" Clicked="Obrat" Grid.Row="0" Grid.Column="4" CornerRadius="20" BackgroundColor="#ffffff" />

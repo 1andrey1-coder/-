@@ -57,6 +57,7 @@ namespace App3
                     result = Math.Round((double) (firstNumber * expression / 100));
                     break;
             }
+            
             resultEntry.Text = result.ToString();
         }
 
@@ -72,8 +73,7 @@ namespace App3
         {
             firstNumber = Convert.ToDouble(resultEntry.Text);
             operation = "+";
-            resultEntry.Text = " ";
-
+            resultEntry.Text = "";
         }
 
 
@@ -81,31 +81,28 @@ namespace App3
         {
             firstNumber = Convert.ToDouble(resultEntry.Text);
             operation = "-";
-            resultEntry.Text = " ";
-
+            resultEntry.Text = "";
         }
 
         private void Umnog(object sender, EventArgs e)
         {
             firstNumber = Convert.ToDouble(resultEntry.Text);
             operation = "*";
-            resultEntry.Text = " ";
-
+            resultEntry.Text = "";
         }
 
         private void Delenie(object sender, EventArgs e)
         {
             firstNumber = Convert.ToDouble(resultEntry.Text);
             operation = "/";
-            resultEntry.Text = " ";
-
+            resultEntry.Text = "";
         }
 
         private void Skidka(object sender, EventArgs e)
         {
             firstNumber = Convert.ToDouble(resultEntry.Text);
             operation = "%";
-            resultEntry.Text = " ";
+            resultEntry.Text = "";
         }
 
         private void Koren(object sender, EventArgs e)
@@ -149,7 +146,9 @@ namespace App3
 
         private void Strelka(object sender, EventArgs e)
         {
-
+            this.resultEntry.Text = resultEntry.Text.Remove(resultEntry.Text.Length -1);
         } 
+
+      
     }
 }
